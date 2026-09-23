@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-page text-ink font-sans min-h-screen;
+  }
+
+  * {
+    @apply border-bw-border;
+  }
+}
